@@ -1,0 +1,217 @@
+@media screen and (max-width:750px) {
+    /* -------------------------------------------------- */
+    .bar{
+        display:flex;
+        justify-content:flex-start;
+        align-items: center;
+     position: absolute;
+     left:5vw;
+     top:15px;
+     right:8px;
+    }
+    nav {
+        height:15vh;
+    }
+    .search{
+        position:relative;
+        top:4vh;
+        bottom:0;
+        margin:22px auto auto auto;
+    }
+    .search input{
+        width:90vw;
+        display: flex;
+        padding:10px 0 10px 30px;
+        margin:8px 0;
+       text-transform:capitalize;
+    }
+    .search .fas{
+        position:absolute;
+     bottom:8px;
+     left:5px;
+     top:17px;
+     color: gray;
+    }
+    nav ul #move{
+        display: none;
+    }
+    .logo{
+        display: inline-block;
+        position:absolute;
+        top:12px;
+        left:12vw;
+    }
+    .logo img{
+        width:60px;
+    }
+    .logo p{
+        font-size:12px;
+        margin: auto;
+    }
+    .logo #plus{
+       position: relative;
+       top:1px;
+        width:3vw;
+        height:13px;
+    }
+   .cart{
+       display:inline-block;
+       position: absolute;
+       left:72vw;
+       top:15px;
+   }
+   .cart p{
+       display: none;
+   }
+   .btn{
+     position: absolute;
+     left:80vw;
+    top:8px;
+}
+button{
+       position: relative;
+       background:none;
+       color:gold;
+   }
+    /* -------------------------------------------------- */
+
+    .category{
+       height:45vh;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin:12px auto;
+    }
+    .category img{
+        width:18vw;
+    }
+
+      /* -------------------------------------------------- */
+
+      .slider{
+          border:2px solid red;
+          height:25vh;
+      }
+      .slider img{
+          height:25vh;
+          width:100%;
+          margin: auto;
+      }
+
+        /* -------------------------------------------------- */
+
+        .cards{
+            display: grid;
+            grid-template-columns: auto;
+        }
+        .cards img{
+            width:95%;
+            display: block;
+            margin:8px -6px;
+        }
+
+             /* /-------------------------------------------------- */ 
+
+             .deals{
+                 grid-template-columns:auto auto;
+             }
+             .deals .first img{
+                 margin: auto;
+                 width:35vw;
+             }
+             .first h3{
+                 font-size:1.2rem;
+                 margin: auto;
+             }
+            .first .probtn{
+                width:20vw;
+                font-size:1rem;
+            }
+
+            .second img{
+                height:10vh;
+                margin:0 10px;
+            }
+
+
+              /* /-------------------------------------------------- */ 
+
+              footer{
+                  height:auto;
+                  width:100%;
+              }
+              .all{
+                  grid-template-columns: auto auto auto;
+              }
+              .all ul{
+                  margin:0 8px;
+              }
+              .all ul li{
+                  font-size:12px;
+                  margin:6px 0;
+              }
+              footer li,p{
+                  font-size:12px;
+                  margin:6px 3px;
+              }
+              footer h3{
+                  margin:6px 6px;
+              }
+              .middle{
+                  display: none;
+              }
+
+              .bottom .fa{
+                  margin:0 8px 0 0;
+              }
+              .bottom .b-1,.b-2,.b-3,.b-4,.b-5,.b-6{
+                  margin:auto;
+              }
+             .bottom .b-6 img{
+               width:95vw;
+               margin:6px 0;
+             }
+             .left-nav-top a{
+                margin:0 20px 0 8px;
+             }
+             .left-nav .left-nav-top img{
+                 width:9vw;
+              margin:0 12px 0 52px;
+             }
+}
+
+@media  screen and (min-width:750px) and (max-width:900px) {
+    .deals .second img{
+        margin:0 8px;
+        width:20vw;
+        height:12vh;
+    }
+    .first .probtn{
+        width:15vw;
+        font-size:0.8rem;
+    }
+    .first h3{
+        font-size:1.5rem;
+        text-align:center;
+        margin: auto;
+    }
+    footer{
+        height:40vh;
+    }
+    footer li,p{
+        color:#fff;
+        font-size:12px;
+       margin:0 6px 0 8px;
+    }
+    footer h3{
+        margin:6px 38px;
+        font-size:13px;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .cards img{
+        width:90%;
+        margin:6px auto;
+    }
+}
